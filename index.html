@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="head">
+                <h1>Sign In With</h1>
+            </div>
+            <div class="head2">
+                <div id="facebook">
+                    <div class="imgtextface">
+                        <div class="imgface">
+                            <img src="facebook.png" alt="">
+                        </div>
+                        <div class="textface">
+                            <a href="https://www.facebook.com">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="google">
+                    <div class="imgtextgoog">
+                        <div class="imggoog">
+                            <img src="google.jpg" alt="">
+                        </div>
+                        <div class="textgoog">
+                            <a href="https://www.google.com">Google</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="formmain">
+                <form  name="usepass" action="result.html"  method="POST" onsubmit="return usepassa()">
+                    <div class="username">
+                        <label for="username">Username</label><br><br>
+                        <input type="text" id="username" name="username" placeholder="Please enter username.." >
+                    </div>
+                    <div class="password">
+                        <label for="password">Password<a href="#">Forgot ?</a> </label><br><br>
+                        <input type="password" id="password" name="password" placeholder="Please enter password.." >
+                    </div>
+                    <div class="submitt">
+                        <input type="submit" value="Sign In">
+                    </div>
+                    <div class="footer">
+                        <p>Not a member?<a href="#">Sign up now</a></p>
+                    </div>
+                    <p style="color: red;">Username:Emre Password:Kaya</p>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+
+</body>
+</html>
