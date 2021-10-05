@@ -118,9 +118,7 @@
 .username{
     padding: 10px 0px;
 }
-.username input:invalid{
-    border-color: red;
-}
+
 
 .password{
     padding: 10px 0px;
@@ -191,6 +189,9 @@
      color: grey;
      padding-left: 5px;
 
+ }
+ .formmain p{
+     text-align: center;
  }
 
  @media screen and (max-width:700px){
