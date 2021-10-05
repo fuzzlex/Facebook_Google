@@ -118,6 +118,10 @@
 .username{
     padding: 10px 0px;
 }
+.username input:invalid{
+    border-color: red;
+}
+
 .password{
     padding: 10px 0px;
 }

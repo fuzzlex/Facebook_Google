@@ -1,17 +1,23 @@
 function usepassa(){
-    var form = document.forms["usepass"];
-    var use = form["username"].value;
-    var pass = form["password"].value;
+    let form = document.forms["usepass"];
+    let use = form["username"].value;
+    let pass = form["password"].value;
     if (use !== "Emre"){
-        alert("Lütfen doğru giriş yapınız");
+        document.getElementById("username").style.borderColor = "red";
+        document.getElementById("username").style.borderWidth = "5px";
         return false;
     }
     else if (pass !== "Kaya"){
-        alert("Lütfen doğru giriş yapınız");
+        document.getElementById("password").style.borderColor = "red";
+        document.getElementById("password").style.borderWidth = "5px";
         return false;
     }
-    alert("Hoşgeldiniz....");
+    document.getElementById("username").style.borderColor = "green";
+    document.getElementById("username").style.borderWidth = "5px";
+    document.getElementById("password").style.borderColor = "green";
+    document.getElementById("password").style.borderWidth = "5px";
     return true;
+
 };
 
 function tıklan(){
